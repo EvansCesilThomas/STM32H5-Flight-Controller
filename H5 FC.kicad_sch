@@ -1,0 +1,57 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e6339f4c-548b-481a-a0b0-bcdcab0dccbf")
+	(paper "A4")
+	(title_block
+		(title "STM32H5 FC")
+		(date "08/06/2026")
+		(rev "v1")
+		(comment 1 "Evans Cesil Thomas")
+	)
+	(lib_symbols)
+	(text "Overview"
+		(exclude_from_sim no)
+		(at 106.172 55.372 0)
+		(effects
+			(font
+				(face "DejaVu Sans Mono")
+				(size 5.08 5.08)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1a58d160-4062-4a2b-985e-a847607cf75f")
+	)
+	(text "Features:"
+		(exclude_from_sim no)
+		(at 105.156 73.914 0)
+		(effects
+			(font
+				(size 4.572 4.572)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "28bbc1c3-da2b-4b61-8d8d-e941c0c89440")
+	)
+	(text "STM32H5 general autopilot for 0-6 motors\n\n\nPower Input: 2s - 6s\nDual BEC with 5V 2A and 5V/6V/9V/10V 2A outputs\nIMU: BMI270 or ICM-42688-P\nBaro: BMP280\nCompass: QMC5883L\n6x UARTs\n1x I2C\nWS2812B LED Strip Output\n7 GPIOs which includes:\n	1x Analog Input\n	2x Extra ESC Outputs\n	1x Timer output\n	3x Regular GPIO "
+		(exclude_from_sim yes)
+		(at 89.408 106.426 0)
+		(effects
+			(font
+				(size 3.556 3.556)
+				(thickness 0.254)
+			)
+			(justify left)
+		)
+		(uuid "3c65cacb-7c5a-479d-bee8-02ce81cc0205")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
