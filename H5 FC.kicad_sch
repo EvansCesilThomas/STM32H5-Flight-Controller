@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "Overview"
 		(exclude_from_sim no)
-		(at 106.172 55.372 0)
+		(at 96.012 55.88 0)
 		(effects
 			(font
 				(face "DejaVu Sans Mono")
@@ -26,7 +26,7 @@
 	)
 	(text "Features:"
 		(exclude_from_sim no)
-		(at 105.156 73.914 0)
+		(at 94.996 74.422 0)
 		(effects
 			(font
 				(size 4.572 4.572)
@@ -36,9 +36,9 @@
 		)
 		(uuid "28bbc1c3-da2b-4b61-8d8d-e941c0c89440")
 	)
-	(text "STM32H5 general autopilot for 0-6 motors\n\n\nPower Input: 2s - 6s\nDual BEC with 5V 2A and 5V/6V/9V/10V 2A outputs\nIMU: BMI270 or ICM-42688-P\nBaro: BMP280\nCompass: QMC5883L\n6x UARTs\n1x I2C\nWS2812B LED Strip Output\n7 GPIOs which includes:\n	1x Analog Input\n	2x Extra ESC Outputs\n	1x Timer output\n	3x Regular GPIO "
+	(text "STM32H5 general autopilot for up to 6 motors\n\n\nPower Input: 2s - 6s\nDual BEC with 5V 2A and 5V/6V/9V/10V 2A outputs\nIMU: BMI270 or ICM-42688-P\nBaro: BMP280\nCompass: QMC5883L\n6x UARTs\n1x I2C\nWS2812B LED Strip Output\nMicroSD slot\n7 GPIOs which includes:\n	1x Analog Input\n	2x Extra ESC Outputs\n	1x Timer output\n	3x Regular GPIO "
 		(exclude_from_sim yes)
-		(at 89.408 106.426 0)
+		(at 79.248 108.966 0)
 		(effects
 			(font
 				(size 3.556 3.556)
