@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STM32H5 FC")
-		(date "08/06/2026")
-		(rev "v1")
+		(date "2026-05-11")
+		(rev "v1.1")
 		(comment 1 "Evans Cesil Thomas")
 	)
 	(lib_symbols
@@ -5947,7 +5947,7 @@
 		)
 		(uuid "ffdca697-513c-40f5-84fa-a74a21dda366")
 	)
-	(global_label "GPIO6"
+	(global_label "GPIO1"
 		(shape input)
 		(at 118.11 119.38 180)
 		(fields_autoplaced yes)
@@ -6019,7 +6019,7 @@
 			)
 		)
 	)
-	(global_label "GPIO1~_ADC"
+	(global_label "GPIO4~_ADC"
 		(shape input)
 		(at 118.11 88.9 180)
 		(fields_autoplaced yes)
@@ -6235,7 +6235,7 @@
 			)
 		)
 	)
-	(global_label "GPIO2~_ADC"
+	(global_label "GPIO5~_ADC"
 		(shape input)
 		(at 190.5 73.66 0)
 		(fields_autoplaced yes)
@@ -6572,7 +6572,7 @@
 			)
 		)
 	)
-	(global_label "GPIO3~"
+	(global_label "GPIO6~"
 		(shape input)
 		(at 190.5 83.82 0)
 		(fields_autoplaced yes)
@@ -6764,7 +6764,7 @@
 			)
 		)
 	)
-	(global_label "GPIO4"
+	(global_label "GPIO2"
 		(shape input)
 		(at 118.11 104.14 180)
 		(fields_autoplaced yes)
@@ -6908,7 +6908,7 @@
 			)
 		)
 	)
-	(global_label "GPIO5"
+	(global_label "GPIO3"
 		(shape input)
 		(at 118.11 116.84 180)
 		(fields_autoplaced yes)

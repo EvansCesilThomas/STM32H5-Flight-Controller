@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "STM32H5 FC")
-		(date "08/06/2026")
-		(rev "v1")
+		(date "2026-05-11")
+		(rev "v1.1")
 		(comment 1 "Evans Cesil Thomas")
 	)
 	(lib_symbols)
