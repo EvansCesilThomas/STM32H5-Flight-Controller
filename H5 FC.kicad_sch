@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32H5 FC")
 		(date "2026-05-11")
-		(rev "v1.1")
+		(rev "v1.2")
 		(comment 1 "Evans Cesil Thomas")
 	)
 	(lib_symbols)

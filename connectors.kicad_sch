@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32H5 FC")
 		(date "2026-05-11")
-		(rev "v1.1")
+		(rev "v1.2")
 		(comment 1 "Evans Cesil Thomas")
 	)
 	(lib_symbols
@@ -4114,18 +4114,6 @@
 		)
 		(uuid "9a4e799a-ffea-4be0-a8d8-c14fe59750dd")
 	)
-	(rectangle
-		(start 76.962 155.448)
-		(end 108.712 160.528)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "d69c8605-fc7c-451f-bc6e-d1f9ad310992")
-	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 226.822 75.184 0)
@@ -4246,18 +4234,6 @@
 		)
 		(uuid "9a2e296b-523b-4bcc-83f7-da998ff92b4b")
 	)
-	(text "SBUS can be powered with USB"
-		(exclude_from_sim no)
-		(at 92.71 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "a46216f7-3ba3-4e5f-9239-f4ecfe8ef653")
-	)
 	(text "GPIO/ADC"
 		(exclude_from_sim no)
 		(at 179.578 74.93 0)
@@ -4283,10 +4259,22 @@
 		(uuid "10fd86e8-9021-4c14-944a-d701c1a223c2")
 	)
 	(junction
+		(at 251.46 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25f0e65e-4626-4c6a-a395-7d7ec76551ea")
+	)
+	(junction
 		(at 27.94 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6994bba0-49a8-4659-b532-e325fa691432")
+	)
+	(junction
+		(at 259.08 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75aa96bf-31c7-471e-9914-540b7bd85e3e")
 	)
 	(junction
 		(at 102.87 90.17)
@@ -4331,6 +4319,12 @@
 		(uuid "e1472f59-854f-4ca3-bd68-7f179b5eaf1c")
 	)
 	(junction
+		(at 267.97 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa4b0985-0618-456f-b916-270c60999704")
+	)
+	(junction
 		(at 35.56 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4366,6 +4360,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 30.48) (xy 259.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053ecbd2-3925-441f-be02-4782e88b2282")
+	)
+	(wire
+		(pts
 			(xy 214.63 114.3) (xy 214.63 116.84)
 		)
 		(stroke
@@ -4373,6 +4377,16 @@
 			(type default)
 		)
 		(uuid "0661c638-c99e-4692-a722-ebdc62390a77")
+	)
+	(wire
+		(pts
+			(xy 267.97 30.48) (xy 259.08 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070f2871-da11-45aa-bd06-9ab604133b47")
 	)
 	(wire
 		(pts
@@ -4393,6 +4407,16 @@
 			(type default)
 		)
 		(uuid "0cdd5745-a3a0-48db-b318-a827e65299e4")
+	)
+	(wire
+		(pts
+			(xy 259.08 30.48) (xy 251.46 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103cea5a-08d6-4a00-8700-b23e1ddb81e7")
 	)
 	(wire
 		(pts
@@ -4483,6 +4507,16 @@
 			(type default)
 		)
 		(uuid "25435aa5-ecc0-42cf-b27f-b85683356ca1")
+	)
+	(wire
+		(pts
+			(xy 267.97 30.48) (xy 276.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270e48f6-9ddb-4934-b7b6-2593cfb821a5")
 	)
 	(wire
 		(pts
@@ -4696,6 +4730,26 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 30.48) (xy 251.46 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4946af3a-13ef-460e-9b64-d1c4cd22dd0f")
+	)
+	(wire
+		(pts
+			(xy 259.08 39.37) (xy 259.08 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab0fdc0-e922-4f23-a7c9-e6c821bcde20")
+	)
+	(wire
+		(pts
 			(xy 97.79 102.87) (xy 102.87 102.87)
 		)
 		(stroke
@@ -4703,6 +4757,16 @@
 			(type default)
 		)
 		(uuid "4c0226e0-04cb-431e-8962-bc6ec491e2e8")
+	)
+	(wire
+		(pts
+			(xy 276.86 39.37) (xy 276.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f299dc1-def3-401a-9c06-52b3cb8532f7")
 	)
 	(wire
 		(pts
@@ -4793,6 +4857,16 @@
 			(type default)
 		)
 		(uuid "642b9c5c-6f10-4b9f-bbf2-083a40637d02")
+	)
+	(wire
+		(pts
+			(xy 276.86 33.02) (xy 276.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6544b9ac-58b4-4d5e-8beb-69dcae75f2a7")
 	)
 	(wire
 		(pts
@@ -5376,6 +5450,36 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 29.21) (xy 259.08 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed49c49-3e93-4f80-811c-85718f85164f")
+	)
+	(wire
+		(pts
+			(xy 267.97 39.37) (xy 267.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef2c1a3-6e73-489c-8552-b2afcd9b7c9c")
+	)
+	(wire
+		(pts
+			(xy 267.97 33.02) (xy 267.97 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01188fe-a41a-4427-a0d5-f80e8da568b4")
+	)
+	(wire
+		(pts
 			(xy 138.43 120.65) (xy 137.16 120.65)
 		)
 		(stroke
@@ -5496,6 +5600,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 30.48) (xy 242.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c479d1-4963-4aed-a3b6-02cbb2077068")
+	)
+	(wire
+		(pts
+			(xy 251.46 39.37) (xy 251.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1973f2-9091-48ba-a103-48e5cf60ae29")
+	)
+	(wire
+		(pts
 			(xy 62.23 77.47) (xy 62.23 81.28)
 		)
 		(stroke
@@ -5513,6 +5637,16 @@
 			(type default)
 		)
 		(uuid "e23b3346-4e47-4291-a5cf-47ecf6e9bd4e")
+	)
+	(wire
+		(pts
+			(xy 242.57 39.37) (xy 242.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3400f84-7924-4df4-8f10-bd95aeee92df")
 	)
 	(wire
 		(pts
@@ -5613,6 +5747,16 @@
 			(type default)
 		)
 		(uuid "fb07aed1-adc8-490c-ba9c-a030dc55c943")
+	)
+	(wire
+		(pts
+			(xy 251.46 30.48) (xy 242.57 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc46765-073c-47e1-8164-35343d9fd241")
 	)
 	(wire
 		(pts
@@ -5864,6 +6008,30 @@
 			)
 		)
 	)
+	(global_label "SDMMC_D3"
+		(shape input)
+		(at 276.86 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "24ef5edf-b823-4221-bdae-44ee7838ae76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.86 52.4546 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "UART5_TX"
 		(shape input)
 		(at 88.9 92.71 0)
@@ -5981,6 +6149,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SDMMC_D2"
+		(shape input)
+		(at 267.97 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37581ca7-4802-4295-a96b-0b2ab1e996a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.97 52.4546 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6392,6 +6584,30 @@
 			)
 		)
 	)
+	(global_label "SDMMC_D0"
+		(shape input)
+		(at 251.46 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76e3f4d4-756d-4580-b5ac-095ab30b98e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.46 52.4546 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "UART7_RX"
 		(shape input)
 		(at 138.43 125.73 0)
@@ -6413,6 +6629,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SDMMC_D1"
+		(shape input)
+		(at 259.08 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84e4d27f-70e8-45d5-becf-4c55a2eff261")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.08 52.4546 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6752,6 +6992,30 @@
 			)
 		)
 	)
+	(global_label "SDMMC_CMD"
+		(shape input)
+		(at 242.57 39.37 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9ef55f7-d057-4706-bbcf-b3614558f19b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 53.9665 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 212.09 124.46 0)
@@ -7019,6 +7283,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7091,6 +7361,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "H2")
 					(unit 1)
 				)
@@ -7173,6 +7449,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7247,6 +7529,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR083")
 					(unit 1)
 				)
@@ -7330,6 +7618,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7404,6 +7698,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR088")
 					(unit 1)
 				)
@@ -7487,6 +7787,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7562,6 +7868,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR079")
 					(unit 1)
 				)
@@ -7652,6 +7964,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "J8")
 					(unit 1)
 				)
@@ -7749,6 +8067,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7826,6 +8150,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "C42")
 					(unit 1)
 				)
@@ -7923,6 +8253,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8001,6 +8337,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8075,6 +8417,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR066")
 					(unit 1)
 				)
@@ -8172,6 +8520,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8244,6 +8598,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "H4")
 					(unit 1)
 				)
@@ -8323,6 +8683,100 @@
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 259.08 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506788a3-5ad0-4319-af4b-1eb763704b72")
+		(property "Reference" "R5"
+			(at 261.62 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 261.62 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 259.08 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 259.08 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41e035e7-cb81-4d1c-969a-c8ff5a52924c")
+		)
+		(pin "2"
+			(uuid "29cc7403-e395-4c14-9e80-1ee33ee46443")
+		)
+		(instances
+			(project "H5 FC"
+				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8422,6 +8876,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8500,6 +8960,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8574,6 +9040,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR095")
 					(unit 1)
 				)
@@ -8664,6 +9136,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8742,6 +9220,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8816,6 +9300,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR068")
 					(unit 1)
 				)
@@ -8899,6 +9389,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8973,6 +9469,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR057")
 					(unit 1)
 				)
@@ -9055,6 +9557,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9133,6 +9641,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9207,6 +9721,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR071")
 					(unit 1)
 				)
@@ -9291,6 +9811,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9369,6 +9895,100 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 242.57 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a51d80b-80d9-481d-a16a-bf3a2f74df2e")
+		(property "Reference" "R9"
+			(at 245.11 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 245.11 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 242.57 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 242.57 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cea1bb07-1a7c-4cdc-81c8-5d42d2bb8de7")
+		)
+		(pin "2"
+			(uuid "c1fa905d-3c95-4efa-9515-f41949870baa")
+		)
+		(instances
+			(project "H5 FC"
+				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9441,6 +10061,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "H3")
 					(unit 1)
 				)
@@ -9524,6 +10150,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9602,6 +10234,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9676,6 +10314,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR055")
 					(unit 1)
 				)
@@ -9760,6 +10404,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "J6")
 					(unit 1)
 				)
@@ -9857,6 +10507,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9931,6 +10587,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -10013,6 +10675,96 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 259.08 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a4ae98-f5ff-4e48-bbc6-fc51dce33bac")
+		(property "Reference" "#PWR070"
+			(at 259.08 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 259.08 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 259.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f1738fb-1e96-40a6-967e-dd49ba30a0c2")
+		)
+		(instances
+			(project "H5 FC"
+				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10087,6 +10839,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR097")
 					(unit 1)
 				)
@@ -10191,6 +10949,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10265,6 +11029,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR067")
 					(unit 1)
 				)
@@ -10346,6 +11116,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "C41")
 					(unit 1)
 				)
@@ -10475,6 +11251,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10552,6 +11334,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "C43")
 					(unit 1)
 				)
@@ -10637,6 +11425,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10716,6 +11510,100 @@
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 276.86 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ac274e-8401-486a-abb1-3cb96230c97c")
+		(property "Reference" "R7"
+			(at 279.4 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 279.4 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 276.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 276.86 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ff7d3aa-7eb0-4504-a96b-ee6f932de089")
+		)
+		(pin "2"
+			(uuid "ba0ddddd-2e7c-4826-863a-aaeeba975afe")
+		)
+		(instances
+			(project "H5 FC"
+				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10812,6 +11700,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10894,6 +11788,188 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 251.46 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3c1f9ef-a584-4d46-ad53-08fbda35eda7")
+		(property "Reference" "R8"
+			(at 254 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 254 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 251.46 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 251.46 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e13116a1-0521-49ad-958d-b9d864c17f5b")
+		)
+		(pin "2"
+			(uuid "a937c63d-de2f-4e5d-97d3-83f39c3964bb")
+		)
+		(instances
+			(project "H5 FC"
+				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 267.97 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6f2e2c-36e4-48ba-94b4-8007c1ae268c")
+		(property "Reference" "R6"
+			(at 270.51 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 270.51 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 267.97 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 267.97 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "459c6652-63c2-43ae-9b5d-67628faf875b")
+		)
+		(pin "2"
+			(uuid "ce88f53f-4d93-4a37-9f01-67386b92cebf")
+		)
+		(instances
+			(project "H5 FC"
+				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10969,6 +12045,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -11073,6 +12155,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11147,6 +12235,12 @@
 		(instances
 			(project "H5 FC"
 				(path "/0551e0ad-940b-4f9e-8ade-4c3dc966cac5"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -11227,6 +12321,12 @@
 					(unit 1)
 				)
 			)
+			(project "connectors"
+				(path "/ae6b6b1c-d0a1-4183-bb60-ecc86d07c81f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -11234,4 +12334,5 @@
 			(page "5")
 		)
 	)
+	(embedded_fonts no)
 )
