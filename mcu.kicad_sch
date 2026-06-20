@@ -3972,6 +3972,16 @@
 		)
 		(uuid "1926b208-fa96-4fd4-b6ab-a605e992c18f")
 	)
+	(text "Ferrite is a bad idea. \nPlaceholder for now.\nShort directly or use \na 10 ohm resitor\n"
+		(exclude_from_sim no)
+		(at 188.976 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20295493-c67e-4cc2-afb4-c2f232ef74e1")
+	)
 	(text "Low ESR"
 		(exclude_from_sim no)
 		(at 115.062 139.192 0)
@@ -6764,7 +6774,7 @@
 			)
 		)
 	)
-	(global_label "GPIO2"
+	(global_label "GPIO2~"
 		(shape input)
 		(at 118.11 104.14 180)
 		(fields_autoplaced yes)
@@ -6776,7 +6786,7 @@
 		)
 		(uuid "a1592d33-8107-46e6-a279-fa98bd496c4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.44 104.14 0)
+			(at 108.5329 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7415,6 +7425,12 @@
 			(uuid "b9a686bd-b5f7-455a-b75c-761af9f6c429")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C22")
@@ -7497,6 +7513,12 @@
 			(uuid "fabd0b56-205d-4818-9b9d-1dc915f127b9")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C16")
@@ -7579,6 +7601,12 @@
 			(uuid "1aac3fae-c97e-4673-8901-1973e70c6228")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C21")
@@ -7657,6 +7685,12 @@
 			(uuid "69cdec64-115a-4550-bf46-1634f5bcd716")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR07")
@@ -7738,6 +7772,12 @@
 			(uuid "51d86eba-a7b1-4d4a-af15-1867d9bbc908")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R50")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R50")
@@ -7819,6 +7859,12 @@
 			(uuid "39080abc-36ef-47a7-8bd2-9444e6db721e")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R43")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R43")
@@ -7904,6 +7950,12 @@
 			(uuid "c8e90123-0f57-4eff-8b82-6d88bdc00390")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "Y2")
@@ -7982,6 +8034,12 @@
 			(uuid "3083c3d6-5ce5-402b-b4a9-30eb0db02ca0")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR069")
@@ -8064,6 +8122,12 @@
 			(uuid "c010b201-cda7-4716-bcbd-896d14633903")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C3")
@@ -8142,6 +8206,12 @@
 			(uuid "216f4669-1101-4d01-b22e-0952c0b57d4e")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR046")
@@ -8223,6 +8293,12 @@
 			(uuid "e7988b82-335b-4940-9b5e-96c8a05d8d37")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R32")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R32")
@@ -8301,6 +8377,12 @@
 			(uuid "034eaf34-e1e8-494b-b827-12635cb55275")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR01")
@@ -8380,6 +8462,12 @@
 			(uuid "de15f3d1-0c7d-4eb0-aef2-0d364cecc303")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C26")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C26")
@@ -8458,6 +8546,12 @@
 			(uuid "7bf3d0cc-e41e-47f2-be00-fa522727a78d")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR051")
@@ -8727,6 +8821,12 @@
 			(uuid "d091d12c-2de4-48e9-9133-f82a4b934146")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "U1")
@@ -8808,6 +8908,12 @@
 			(uuid "54934aae-4982-427d-ae29-00fb8a31b29b")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R42")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R42")
@@ -8886,6 +8992,12 @@
 			(uuid "c8121c65-d1bf-43b1-a961-a4e01827961e")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR02")
@@ -8968,6 +9080,12 @@
 			(uuid "e3496089-d7cc-4147-9b99-b8f01859c2fd")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C44")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C44")
@@ -9046,6 +9164,12 @@
 			(uuid "e36d86ea-d1a1-4e74-a734-4e5d3cb55373")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR053")
@@ -9134,6 +9258,12 @@
 			(uuid "a6c6bbff-f6e1-4e12-8f2b-467d37c901b9")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "Q1")
@@ -9225,6 +9355,12 @@
 			(uuid "2e27663f-09f2-45a5-8df5-850828946ec8")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "L1")
@@ -9317,6 +9453,12 @@
 			(uuid "1a51344a-3697-45e0-99f7-e571fbf7cc4f")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C2")
@@ -9398,6 +9540,12 @@
 			(uuid "eb502703-3ab8-47c2-b405-91f05353f7b8")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R40")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R40")
@@ -9479,6 +9627,12 @@
 			(uuid "e543b4e3-bd84-45ca-a9e5-5af20a718019")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C4")
@@ -9561,6 +9715,12 @@
 			(uuid "df9629b6-db6e-427f-9e53-25b6aca82490")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C46")
@@ -9639,6 +9799,12 @@
 			(uuid "bc3d2d08-76f3-430b-91ad-93faecca5f0d")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR054")
@@ -9720,6 +9886,12 @@
 			(uuid "4c1079fb-f3eb-41b0-a2bb-3690a8cd5fb4")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R41")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R41")
@@ -9798,6 +9970,12 @@
 			(uuid "53f66091-0f0c-4c06-8898-9c8066496455")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR08")
@@ -9876,6 +10054,12 @@
 			(uuid "d5f483aa-0757-4f50-88af-e09a2e09bfe2")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR081")
@@ -9956,6 +10140,12 @@
 			(uuid "bcc95ec9-4adb-4f74-92fb-568d6fe65517")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R1")
@@ -10037,6 +10227,12 @@
 			(uuid "9debbae1-f6be-46ee-811a-a6ed261ce876")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R48")
@@ -10118,6 +10314,12 @@
 			(uuid "afa0f5cf-1fb7-4858-881a-0453cb6d5759")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R44")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R44")
@@ -10196,6 +10398,12 @@
 			(uuid "fb4debac-6ec8-4ff9-80ee-91ccab9a9033")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR052")
@@ -10274,6 +10482,12 @@
 			(uuid "93f34d62-e942-410b-aa48-735786977e7c")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR078")
@@ -10355,6 +10569,12 @@
 			(uuid "a665c97b-fa0f-4277-b491-869545216dbc")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R39")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R39")
@@ -10447,6 +10667,12 @@
 			(uuid "1cc3fd7a-248c-4578-ae86-6ffe25cd22c2")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C1")
@@ -10529,6 +10755,12 @@
 			(uuid "decba25e-884b-411c-bc64-979b2d6cafb5")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C11")
@@ -10610,6 +10842,12 @@
 			(uuid "d8fd280d-1d11-48f4-b197-9b3e4056567b")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R51")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R51")
@@ -10688,6 +10926,12 @@
 			(uuid "b1971075-4783-46ac-b108-4e9be8f2c366")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR06")
@@ -10770,6 +11014,12 @@
 			(uuid "39961b31-0994-4b9f-b99f-bd1365eaaaa7")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C17")
@@ -10848,6 +11098,12 @@
 			(uuid "444e3449-c094-47b1-b222-cf5f36cfa5a1")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR045")
@@ -10929,6 +11185,12 @@
 			(uuid "81077a72-13b0-468d-b771-8af56a1d9e28")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C9")
@@ -11010,6 +11272,12 @@
 			(uuid "fbdbafe7-35bd-478b-951c-2bdef28b1893")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C8")
@@ -11088,6 +11356,12 @@
 			(uuid "aed2c0b4-453e-474a-8148-8266ee6503be")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR03")
@@ -11169,6 +11443,12 @@
 			(uuid "1dc3277c-3f81-4a4c-b240-e5c52b875204")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R45")
@@ -11251,6 +11531,12 @@
 			(uuid "b376f282-58a7-4ec3-899c-bc0b6f93b0bb")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C20")
@@ -11332,6 +11618,12 @@
 			(uuid "d868f1be-cbd7-4731-adaf-99be949a7561")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R47")
@@ -11414,6 +11706,12 @@
 			(uuid "81795aeb-5288-4429-8ebf-feafcc71d77e")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C7")
@@ -11495,6 +11793,12 @@
 			(uuid "95c2d4f5-b052-481b-8a06-7b2a160b810f")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R52")
@@ -11573,6 +11877,12 @@
 			(uuid "c982faf6-57f5-45df-80d0-f38cc3917cde")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR012")
@@ -11654,6 +11964,12 @@
 			(uuid "fb61ccb9-ce64-4f58-a180-65f7e51ad72f")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R31")
@@ -11735,6 +12051,12 @@
 			(uuid "b09c0762-d74a-41e4-881e-ae43b84c1a1d")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R46")
@@ -11816,6 +12138,12 @@
 			(uuid "a7125483-83eb-493c-a2ec-7b07a445b923")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C10")
@@ -11898,6 +12226,12 @@
 			(uuid "2a0bae32-0ca5-4b3c-8afa-520672dab4fd")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R2")
@@ -11976,6 +12310,12 @@
 			(uuid "4828dc89-c352-4be3-9147-13446c3921bf")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR082")
@@ -12057,6 +12397,12 @@
 			(uuid "e9c4d3d0-40dd-4e7c-b993-e9b34e109464")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R49")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R49")
@@ -12135,6 +12481,12 @@
 			(uuid "c70c908f-9c42-4009-bb6a-7860e2bc297c")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR027")
@@ -12213,6 +12565,12 @@
 			(uuid "700c54c9-1765-4300-9463-0221d16f3f32")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR050")
@@ -12291,6 +12649,12 @@
 			(uuid "394fe9cc-482a-4e72-aab2-abb1e0b84e44")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "#PWR05")
@@ -12379,6 +12743,12 @@
 			(uuid "415db399-32c0-4fe1-866d-c0c19ba35d48")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "D3")
@@ -12460,6 +12830,12 @@
 			(uuid "a665cfd8-c9f1-47d6-afa2-cd3d1aa95bbc")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "C6")
@@ -12542,6 +12918,12 @@
 			(uuid "f8fe9a0d-22fa-4905-a6d9-397b331d6b68")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "JP2")
@@ -12622,6 +13004,12 @@
 			(uuid "7c07724c-394c-4cd4-a973-eadef470f0b6")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "SW1")
@@ -12703,6 +13091,12 @@
 			(uuid "c999d540-d377-4589-87d9-0b5f1601836a")
 		)
 		(instances
+			(project "mcu"
+				(path "/68c49842-4301-4243-b525-9701b4bf548f"
+					(reference "R38")
+					(unit 1)
+				)
+			)
 			(project "H5 FC"
 				(path "/9881bded-b74c-4ca1-ba10-70ecb716537e"
 					(reference "R38")
@@ -12716,4 +13110,5 @@
 			(page "3")
 		)
 	)
+	(embedded_fonts no)
 )

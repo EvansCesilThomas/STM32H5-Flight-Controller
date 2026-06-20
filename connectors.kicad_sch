@@ -5792,7 +5792,7 @@
 			)
 		)
 	)
-	(global_label "GPIO2"
+	(global_label "GPIO2~"
 		(shape input)
 		(at 138.43 96.52 0)
 		(fields_autoplaced yes)
@@ -5804,7 +5804,7 @@
 		)
 		(uuid "0164b8b8-664e-4632-9413-4af764917724")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1 96.52 0)
+			(at 148.0071 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8717,7 +8717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "47K"
 			(at 261.62 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9926,7 +9926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "47K"
 			(at 245.11 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11544,7 +11544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "47K"
 			(at 279.4 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,10 +11806,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3c1f9ef-a584-4d46-ad53-08fbda35eda7")
 		(property "Reference" "R8"
-			(at 254 34.2899 0)
+			(at 254 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11819,10 +11818,10 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "47K"
 			(at 254 36.8299 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +11906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "47K"
 			(at 270.51 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12334,5 +12333,4 @@
 			(page "5")
 		)
 	)
-	(embedded_fonts no)
 )
